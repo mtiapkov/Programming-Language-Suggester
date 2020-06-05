@@ -18,7 +18,7 @@ $(document).ready(function(){
     } else {
       $(".answer3").show();
     }
-    
+    $("form#info").trigger("reset");
     event.preventDefault()
   
   });

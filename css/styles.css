@@ -1,8 +1,13 @@
 .answer1, .answer2, .answer3 {
   display: none;
+  font: 120;
+  font-weight: 600;
+  padding: 5%
 }
 
-span{
-  font-weight:bold;
-  color: blue;
+body {
+  background-color: #080A52;
+  color: #EB2188;
+  border: 8px solid #EB2188;
+  padding: 12px 20px;
 }
