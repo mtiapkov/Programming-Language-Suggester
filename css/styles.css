@@ -11,3 +11,7 @@ body {
   border: 8px solid #EB2188;
   padding: 12px 20px;
 }
+
+.button {
+  padding: 15%
+}

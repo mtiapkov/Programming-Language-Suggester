@@ -1,16 +1,19 @@
-# Programming Language Suggester
+# The Programming Language Suggester 5000
 
-### By Mark Tiapkov
 
-This is a  *Programming Language Suggester* project for Epicodus by Mark Tiapkov. 6.5.2020
+This is *The Programming Language Suggester 5000* project for Epicodus by Mark Tiapkov created on 06.05.2020
+
+## Description
+This is a webpage called The Programming Language Suggester 5000, which allows user to take a test to determine which programming language to learn
 
 ## Installation/Setup
 * Clone this repository
 * Run index.html
 * See product in your browser window
-## Bugs/Issues
 
-There are no known bugs at this time. 
+## Bugs/Issues
+* This page shows test result even if incorrect value is entered for age.
+* This page does not properly refresh itself upon user hitting submit button to generate a new page, resulting in answers being stacked on top of each other.
 
 ## Contact/Support 
 
