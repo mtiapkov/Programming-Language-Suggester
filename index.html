@@ -3,49 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Programming Language Suggester</title>
+  <title>The Programming Language Suggester 5000&#8482</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
 </head>
 <body>
   <div class="container">
-    <h2>Welcome to the Programming Language Suggester!</h2>
+    <h2>Welcome to the Programming Language Suggester 5000&#8482</h2>
       <p>Here you will be able to learn (thanks to some very sophisticated tech availble to the public for the first time) which coding language fits you best based on you! </p>
       <form id="info">
         <div class="form-group">
           <label for="beach">Do you like taking long walks on the beach?</label>
           <select class="form-control" id="beachWalk">
-            <option>Yes</option>
-            <option>No</option>
+            <option class="yes">Yes</option>
+            <option class="no">No</option>
           </select>
         </div>
         <div class="form-group">
           <label for="fires">Do you like putting out fires?(Literally and figuratively)</label>
           <select class="form-control" id="firesOut">
-            <option>Yes</option>
-            <option>No</option>
+            <option class="yes">Yes</option>
+            <option class="no">No</option>
           </select>
         </div>
         <div class="form-group">
           <label for="puzzles">Do you have like solving puzzles?</label>
           <select class="form-control" id="puzzleSolve">
-            <option>Yes</option>
-            <option>No</option>
+            <option class="yes">Yes</option>
+            <option class="no">>No</option>
           </select>
         </div>
         <div class="form-group">
           <label for="confusion">Do you like being in a constant state of confusion?</label>
           <select class="form-control" id="confusedState">
-            <option>Yes</option>
-            <option>No</option>
+            <option class="yes">Yes</option>
+            <option class="no">No</option>
           </select>
         </div>
+        <div class="form-group">
+          <label for="age">Your age:</label>
+          <input id="age" class="form-control" type="text>"
         </div>
         <button type="submit" class="btn">Submit</button>
-      </form> 
-    
-  
+      </form>  
+      <div id="answer">
+        <p>The programming language that you should learn according to The Programming Language Suggester 5000&#8482 is:<span id="language"></span></p>
+      </div>
+    </div>
 </body>
 </html>
