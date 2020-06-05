@@ -1,0 +1,8 @@
+.answer1, .answer2, .answer3 {
+  display: none;
+}
+
+span{
+  font-weight:bold;
+  color: blue;
+}
